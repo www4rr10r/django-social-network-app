@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "pyblogit"
+version = "0.1.0"
+description = "This blog is developed using Bootstrap, Django, PostgreSQL, NGINX and Docker tools. The blog is a convenient platform for creating and publishing informative articles, communicating with other users and sharing knowledge."
+authors = ["www4rr10r"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^4.2.3"
+flake8 = "^6.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
